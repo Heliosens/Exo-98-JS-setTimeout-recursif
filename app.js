@@ -12,7 +12,7 @@ let timeoutRecurve = function () {
             max += 60;
             timeoutRecurve();
         }
-    }, 1000);
+    }, 60000);
 
     buttonStop.addEventListener('click', function () {
         clearTimeout(iDoId);
